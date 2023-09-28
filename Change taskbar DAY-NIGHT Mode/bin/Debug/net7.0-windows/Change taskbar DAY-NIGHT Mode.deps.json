@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Change taskbar DAY-NIGHT Mode/1.0.0": {
+        "runtime": {
+          "Change taskbar DAY-NIGHT Mode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Change taskbar DAY-NIGHT Mode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
