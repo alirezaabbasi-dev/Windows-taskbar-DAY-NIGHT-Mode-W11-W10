@@ -38,7 +38,7 @@
             this.chck1.AutoSize = true;
             this.chck1.Location = new System.Drawing.Point(12, 12);
             this.chck1.Name = "chck1";
-            this.chck1.Size = new System.Drawing.Size(61, 19);
+            this.chck1.Size = new System.Drawing.Size(65, 19);
             this.chck1.TabIndex = 1;
             this.chck1.Text = "Enable";
             this.chck1.UseVisualStyleBackColor = true;
@@ -46,7 +46,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(12, 111);
+            this.btn1.Location = new System.Drawing.Point(281, 12);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 23);
             this.btn1.TabIndex = 2;
@@ -59,7 +59,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(12, 37);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(233, 19);
+            this.checkBox1.Size = new System.Drawing.Size(239, 19);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Show accent color on start and taskbar ";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -67,16 +67,21 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 161);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
+            this.ClientSize = new System.Drawing.Size(396, 80);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.chck1);
-            this.MaximizeBox = false;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.Opacity = 0.98D;
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
